@@ -2,3 +2,16 @@
     margin: 1rem auto;
     text-align: center;
 }
+
+.pokemon-wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.controls button{
+     padding: 0.5rem 1rem 0.5rem 1rem;
+     margin-left: 1rem;
+}
