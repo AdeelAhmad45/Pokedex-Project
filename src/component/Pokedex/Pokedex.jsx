@@ -1,12 +1,13 @@
 import React from 'react'
 import Search from '../Search/Search'
+import PokemonList from '../PokemonList/PokemonList'
 import './Pokedex.css'
 
 function Pokedex() {
   return (
     <div className='pokedex-wrapper'>
-        <h1 className='heading'>Pokedex</h1>
         <Search />
+        <PokemonList />
     </div>
   )
 }
