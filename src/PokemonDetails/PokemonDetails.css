@@ -1,10 +1,10 @@
-.pokemon-detail-name{
+.pokemon-details-name{
     font-size: xx-large;
     color: black;
     margin-top: 1rem;
 }
 
-.pokemon-detail-name > span {
+.pokemon-details-name > span {
     letter-spacing: 1rem;
 }
 
