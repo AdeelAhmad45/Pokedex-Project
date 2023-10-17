@@ -7,6 +7,7 @@ function PokemonList() {
     useEffect(() => {
         console.log("render")
     })
+    
     return (
         <div className="pokemon-list-wrapper">
             <div className="pokemon-wrapper">
@@ -14,6 +15,7 @@ function PokemonList() {
                     pokemonListState.pokemonList.map((p) => <Pokemon name={p.name} image={p.image} key={p.id} id={p.id} />)
                 }
             </div>
+
             <div className="controls">
                 <button disabled={pokemonListState.prevUrl == null} onClick={() => {
                     const urlToSet = pokemonListState.prevUrl;

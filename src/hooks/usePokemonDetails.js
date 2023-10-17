@@ -5,6 +5,7 @@ function usePokemonDetails(id, pokemonName) {
     const [pokemon, setPokemon] = useState({});
     async function downloadPokemon() {
         try {
+            
             let response;
             if(pokemonName) {
                 response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
